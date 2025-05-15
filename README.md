@@ -28,3 +28,19 @@ Silent AGI 1 is a simulated AGI-like system built using a multi-agent architectu
 ```bash
 git clone https://github.com/officiallyitsanil/silent-agi-1.git
 cd silent-agi-1
+# Run the simulation
+python main.py
+
+Silent-AGI-1/
+├── agents/
+│   ├── __init__.py
+│   ├── base_agent.py
+│   ├── coordinator_agent.py
+│   ├── language_agent.py
+│   └── planning_agent.py
+├── tools/
+│   ├── __init__.py
+│   └── external_tools.py
+├── main.py
+└── README.md
+
